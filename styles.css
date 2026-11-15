@@ -812,6 +812,73 @@ img {
 }
 
 /* ==========================================================================
+   Video
+   ========================================================================== */
+.video-section .section-head {
+  margin-bottom: clamp(32px, 5vw, 56px);
+}
+
+.video-section .section-head .lead {
+  margin: 20px 0 0;
+}
+
+.video-figure {
+  margin: 0;
+}
+
+.video-frame {
+  overflow: hidden;
+  border: 1px solid var(--dark-line);
+  border-radius: var(--radius);
+  background: #000;
+  aspect-ratio: 16 / 9;
+}
+
+.video-frame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #000;
+}
+
+.video-caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 20px;
+  color: var(--dark-muted);
+  font-size: 0.9375rem;
+}
+
+.video-transcript {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--dark-line);
+  color: var(--dark-muted);
+  font-size: 0.9375rem;
+}
+
+.video-transcript summary {
+  cursor: pointer;
+  color: var(--paper);
+  font-weight: 500;
+}
+
+.video-transcript p {
+  max-width: 46em;
+  margin: 12px 0 0;
+}
+
+@media (max-width: 560px) {
+  .video-frame {
+    border-radius: 12px;
+  }
+}
+
+/* ==========================================================================
    Product gallery
    ========================================================================== */
 .gallery-grid {
