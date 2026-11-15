@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://paddlematch.yistar.online/sitemap.xml
