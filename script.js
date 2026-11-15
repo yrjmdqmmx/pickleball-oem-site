@@ -11,7 +11,7 @@ const HTML_LANG = { en: "en", zh: "zh-Hans" };
 const I18N = {
   "en": {
     "brand": "{brand}",
-    "meta.title": "Custom OEM / Private Label T700 Carbon Pickleball Paddles",
+    "meta.title": "OEM / Private Label T700 Carbon Pickleball Paddles | Paddle Match",
     "meta.description": "Custom OEM and private label T700 carbon pickleball paddles, made with our partner factory in Dongguan. MOQ 300 pcs. Samples about 12 days, bulk 35–40 days.",
     "meta.locale": "en_US",
     "meta.alternateLocale": "zh_CN",
