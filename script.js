@@ -1,6 +1,6 @@
 /* Static bilingual copy. Keep the English fallback in index.html in sync. */
 const BRAND = { en: "Paddle Match", zh: "一拍即合" };
-const CONTACT_EMAIL = "yrjmdqmmx@gmail.com";
+const CONTACT_EMAIL = "sales@paddlematch.yistar.online";
 const DEFAULT_LANG = "en";
 const LANG_STORAGE_KEY = "site-lang";
 const HTML_LANG = { en: "en", zh: "zh-Hans" };
